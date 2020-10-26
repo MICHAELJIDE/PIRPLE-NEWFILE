@@ -1,0 +1,71 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 26 09:30:44 2020
+
+@author: lenovo
+"""
+
+
+filename = "note_book"
+
+
+prompt = "\n Please enter your filename:"
+
+
+
+while True:
+    
+    with open (filename, 'a') as f:
+        filename = input(' enter filename ')
+        filename = input("note_book")
+      
+        
+        f.read(filename + 'display content', '\n') #show content on screen
+        f.append(filename + 'enter text', '\n')
+        f.delete(filename + ' w', '\n') #overwrite old file
+        
+    
+    with open (filename, 'a') as f:
+        while False:
+            filename = input('enter filename')
+            if filename == 'exit':
+                f.write(filename + '\n')
+                filename.close()
+                
+print(f"you can now jot in the note_book, {filename}")
+                # -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 26 09:30:44 2020
+
+@author: lenovo
+"""
+
+
+filename = "note_book"
+
+
+prompt = "\n Please enter your filename:"
+
+
+
+while True:
+    
+    with open (filename, 'a') as f:
+        filename = input(' enter filename ')
+        filename = input("note_book")
+      
+        
+        f.read(filename + 'display content', '\n') #show content on screen
+        f.append(filename + 'enter text', '\n')
+        f.delete(filename + ' w', '\n') #overwrite old file
+        
+    
+    with open (filename, 'a') as f:
+        while False:
+            filename = input('enter filename')
+            if filename == 'exit':
+                f.write(filename + '\n')
+                filename.close()
+                
+print(f"you can now jot in the note_book, {filename}")
+                
